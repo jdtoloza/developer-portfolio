@@ -65,14 +65,14 @@ function Engineer() {
         <h2>Featured Work</h2>
 
         <div className="project-grid">
-          <article className="card">
-            <article className="card">
+             <article className="card">
             <h3>AI Executive Operations Dashboard</h3>
             <p>
               Built an AI-powered reporting system that analyzed Slack conversations across multiple operational channels to generate an interactive HTML dashboard for leadership. The dashboard summarized weekly security incidents, international travel activity, employee welfare checks, and key operational insights, transforming hours of manual reporting into an automated executive briefing.
             </p>
             <span>Claude • JavaScript • HTML • Slack • AI Automation</span>
           </article>
+          <article className="card">
             <h3>Travel Itinerary Generator</h3>
             <p>
               A full-stack web application that generates personalized travel itineraries using interactive map selection, user preferences, reverse geocoding, and AI-powered recommendations. Built as my Computer Science capstone to explore modern frontend development, API integration, and LLM workflows.
@@ -88,7 +88,7 @@ function Engineer() {
             <span>JavaScript • REST APIs • Quickbase</span>
           </article>
 
-          
+         
         </div>
       </section>
     </main>
