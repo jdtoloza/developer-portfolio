@@ -7,7 +7,7 @@ function Engineer() {
         <div className="hero-content">
           <p className="eyebrow">Software Engineer</p>
 
-          <h1>I build practical tools for real workflows</h1>
+          <h1>Educator to Engineer</h1>
 
           <p className="hero-copy">
             I’m a Computer Science graduate and former educator who builds web
