@@ -1,35 +1,43 @@
-type HeroProps = {
-  name: string;
-};
+import heroImg from "../assets/Hero_Image.png";
 
-function Hero({ name }: HeroProps) {
+function Hero() {
   return (
-    <section>
-      <h1>{name}</h1>
-      <p>Full Stack Developer</p>
+    <section className="hero-section">
+      <div className="hero-text">
+        {/* <p className="eyebrow">Educator • Engineer • Lifelong Learner</p> */}
 
-      /*
-      Hero/Intro:
+        <h1>Hi, I&apos;m Josh Toloza.</h1>
 
-I'm a full stack developer who builds things people actually use. While finishing my CS degree, I spent years at Intuit designing and shipping internal tools for their physical security operations — visitor management, incident notifications, badge issuance, dashboards, and more. Real systems. Real users. Real stakes.
+        <p className="intro">
+          I build practical web apps, automation tools, and internal systems
+          that make real workflows easier to manage.
+        </p>
+        <p>
+          While finishing my Computer Science degree, I spent years at Intuit
+          designing and shipping tools for physical security operations,
+          including visitor management, incident notifications, badge issuance,
+          dashboards, and workflow automation.
+        </p>
+        <br></br>
+        <p>
+          I learned by building systems with real users and real stakes, where
+          reliability, usability, and clear processes mattered as much as the
+          code itself.
+        </p>
 
+        <div className="hero-buttons">
+          <a href="#projects">View Projects</a>
+          <a href="#contact" className="secondary">
+            Contact Me
+          </a>
+        </div>
+      </div>
 
-The Work:
-
-At Intuit I wasn't handed a tech stack or a playbook. I worked within a platform's constraints — vanilla HTML, CSS, and JavaScript with REST API integrations — and built full applications from scratch. No frameworks. No shortcuts. Just an understanding of the problem and the fundamentals to solve it. The results are used daily by receptionists, security personnel, and leadership across Intuit facilities.
-
-
-The "why it matters" paragraph:
-
-Most developers learn by building todo apps. I learned by building systems where downtime has real consequences — where a broken check-in flow affects every visitor walking through the door, where a failed incident notification means leadership is in the dark. That environment taught me to think about reliability, usability, and process before I ever think about code.
-
-
-The honest one that will make you stand out:
-
-I vibe coded some of it. I Googled constantly. I figured things out as I went. But the badge system works. The dashboards get pulled in meetings. The notifications fire when they need to. At the end of the day that's what matters — not how clean the process was, but whether it solves the problem.
-
-
-*/
+      <img
+        src={heroImg}
+        className="hero-image"
+        alt="Pixel art portrait of Josh"
+      />
     </section>
   );
 }
