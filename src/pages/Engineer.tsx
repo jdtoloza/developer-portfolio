@@ -47,11 +47,7 @@ function Engineer() {
         </p>
 
         <p>
-          Rather than building classroom projects alone, I spent my time
-          solving operational problems where reliability, usability, and clear
-          communication mattered. That experience shaped how I approach software
-          today: understand the problem first, then build tools that make
-          people's work simpler and more effective.
+          Rather than building classroom projects alone, I spent my time solving operational problems where reliability, usability, and clear communication mattered. That experience shaped how I approach software today: understand the problem first, then build tools that make people's work simpler and more effective.
         </p>
       </section>
 
@@ -60,9 +56,7 @@ function Engineer() {
         <h2>Full-stack development, automation, and integrations</h2>
 
         <p>
-          My work sits at the intersection of software, operations, and user
-          experience. I enjoy turning messy workflows into simple tools people
-          can actually use.
+          I enjoy building software that solves real operational problems. Whether it's automating repetitive work, connecting systems through APIs, or creating intuitive internal tools, I like developing solutions that save people time and make their jobs easier.
         </p>
       </section>
 
@@ -72,31 +66,29 @@ function Engineer() {
 
         <div className="project-grid">
           <article className="card">
+            <article className="card">
+            <h3>AI Executive Operations Dashboard</h3>
+            <p>
+              Built an AI-powered reporting system that analyzed Slack conversations across multiple operational channels to generate an interactive HTML dashboard for leadership. The dashboard summarized weekly security incidents, international travel activity, employee welfare checks, and key operational insights, transforming hours of manual reporting into an automated executive briefing.
+            </p>
+            <span>Claude • JavaScript • HTML • Slack • AI Automation</span>
+          </article>
             <h3>Travel Itinerary Generator</h3>
             <p>
-              A React and Flask app that helps users generate travel plans using
-              map selection, user preferences, and LLM-generated suggestions.
+              A full-stack web application that generates personalized travel itineraries using interactive map selection, user preferences, reverse geocoding, and AI-powered recommendations. Built as my Computer Science capstone to explore modern frontend development, API integration, and LLM workflows.
             </p>
-            <span>React • Flask • APIs • LLM</span>
+            <span>React • Flask • Google Maps API • LLM</span>
           </article>
 
           <article className="card">
-            <h3>Internal Operations Tools</h3>
+            <h3>Patrol Route Reviewer</h3>
             <p>
-              Web-based tools for badge issuance, incident workflows,
-              dashboards, notifications, and operational tracking.
+              Developed an internal application that validates security patrols by comparing badge-reader activity against scheduled routes. The system automatically identifies completed patrols, missed checkpoints, and performance metrics, giving leadership clear operational visibility.
             </p>
             <span>JavaScript • REST APIs • Quickbase</span>
           </article>
 
-          <article className="card">
-            <h3>Developer Portfolio</h3>
-            <p>
-              A personal portfolio built with React and TypeScript to showcase
-              my engineering projects, background, and growth.
-            </p>
-            <span>React • TypeScript • CSS</span>
-          </article>
+          
         </div>
       </section>
     </main>
