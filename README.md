@@ -1,73 +1,102 @@
-# React + TypeScript + Vite
+# Josh Toloza | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React portfolio showcasing my work as a software engineer, former educator, and builder of enterprise applications.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm a Computer Science graduate and former educator with experience designing and developing internal applications, workflow automation, dashboards, and system integrations used by enterprise teams.
 
-## React Compiler
+My passion is building software that solves real operational problems. I enjoy taking complex workflows and transforming them into applications that are intuitive, reliable, and built for real users.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio highlights my projects, technical skills, and professional experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Built With
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- React Router
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Featured Projects
+
+### Travel Itinerary Generator
+
+A full-stack travel planning application that generates personalized travel itineraries using map selection, user preferences, and AI-assisted recommendations.
+
+**Tech**
+- React
+- Flask
+- REST APIs
+- Google Gemini API
+
+---
+
+### Enterprise Operations Tools
+
+Internal applications built for physical security operations including:
+
+- Badge issuance
+- Visitor management
+- Incident reporting
+- Workflow automation
+- Dashboards
+- System integrations
+
+**Tech**
+- JavaScript
+- HTML
+- CSS
+- REST APIs
+- Quickbase
+
+---
+
+## Areas of Interest
+
+- Full Stack Development
+- Workflow Automation
+- API Integrations
+- Enterprise Applications
+- User Experience
+- Systems Design
+
+---
+
+## Running Locally
+
+Clone the repository
+
+```bash
+git clone git@github.com:jdtoloza/developer-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Contact
+
+**Josh Toloza**
+
+📍 San Jose, California
+
+📧 Josh.Toloza@gmail.com
+
+GitHub:
+https://github.com/jdtoloza
