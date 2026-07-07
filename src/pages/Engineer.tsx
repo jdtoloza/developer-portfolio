@@ -56,7 +56,10 @@ function Engineer() {
         <h2>Full-stack development, automation, and integrations</h2>
 
         <p>
-          I enjoy building software that solves real operational problems. Whether it's automating repetitive work, connecting systems through APIs, or creating intuitive internal tools, I like developing solutions that save people time and make their jobs easier.
+          I enjoy taking a design and figuring out how to build it in code just as much as I enjoy connecting systems behind the scenes. From responsive interfaces built with Flexbox to API integrations that eliminate duplicate work, I like creating software that's both enjoyable to use and efficient to maintain.
+        </p>
+        <p>
+          Before writing code, I enjoy understanding how people actually work. I like observing where users get frustrated, where processes break down, and where repetitive tasks can be eliminated. The most rewarding projects are the ones where software quietly removes friction and lets people focus on their work instead of the tool they're using.
         </p>
       </section>
 
@@ -79,6 +82,13 @@ function Engineer() {
             </p>
             <span>React • Flask • Google Maps API • LLM</span>
           </article>
+          <article className="card">
+            <h3>Enterprise Relational Database Architecture</h3>
+            <p>
+              Consolidated multiple logging systems into a single relational database by connecting sites to violation logs, daily activity reports, badge activity, audits, scorecards, and other security workflows. Eliminated data silos through relational data modeling, creating a centralized source of truth that improved reporting consistency and enabled executive dashboards with real-time operational visibility.
+            </p>
+            <span>JavaScript • REST APIs • Quickbase</span>
+          </article>
 
           <article className="card">
             <h3>Patrol Route Reviewer</h3>
@@ -87,6 +97,8 @@ function Engineer() {
             </p>
             <span>JavaScript • REST APIs • Quickbase</span>
           </article>
+
+            
 
          
         </div>

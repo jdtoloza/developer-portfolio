@@ -125,7 +125,7 @@ p {
 
 .hero-image {
   width: 100%;
-  max-width: 340px;
+  max-width: 640px;
   justify-self: center;
   border-radius: 28px;
   border: 1px solid rgba(148, 163, 184, 0.18);
@@ -192,8 +192,8 @@ p {
 
   .hero-image {
     order: -1;
-    max-width: 240px;
-    justify-self: start;
+    max-width: 400px;
+    justify-self: center;
   }
 
   .project-grid {
